@@ -37,8 +37,5 @@ namespace SyntacticSugar
 
         // Convert this to expression method
         public string Eat(string food) => (this.Prey.Contains(food)) ? $"{this.Name} ate the {food}." : $"{this.Name} is still hungry.";
-
-        public string Eat(string food) => (this.Prey.Contains(food)) ? $"{this.Name} ate the {food}." : $"{this.Name} is still hungry.";
-    }
     }
 }
